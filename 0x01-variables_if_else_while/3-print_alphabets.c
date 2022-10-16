@@ -9,6 +9,7 @@ int main(void)
 
 	for (ls = 'a'; ls <= 'z'; ls++)
 		putchar(ls);
+
 	for (ls = 'A'; ls <= 'Z'; ls++)
 		putchar(ls);
 
