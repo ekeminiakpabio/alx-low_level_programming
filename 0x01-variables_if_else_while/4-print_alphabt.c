@@ -1,17 +1,19 @@
 #include <stdio.h>
 /**
  * main - entry
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
 	char ls;
 
 	for (ls = 'a'; ls <= 'z'; ls++)
-		putchar(ls);
-	for (ls = 'A'; ls <= 'Z'; ls++)
-		putchar(ls);
+	{
+		if (ls != 'e' && ls != 'q')
+			putchar(ls);
+	}
 
-	putchar(\n);
+	putchar (\n);
+
 	return (0);
 }
