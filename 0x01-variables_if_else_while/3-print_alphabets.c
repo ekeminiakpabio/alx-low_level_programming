@@ -1,18 +1,23 @@
 #include <stdio.h>
 /**
- * main - entry
- * Return: 0
- */
+*main - entry
+*Return: 0
+*/
+
 int main(void)
 {
-	char ls;
+	char ch;
 
-	for (ls = 'a'; ls <= 'z'; ls++)
-		putchar(ls);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+		putchar('\n');
+	}
 
-	for (ls = 'A'; ls <= 'Z'; ls++)
-		putchar(ls);
-
-	putchar(\n);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
+		putchar('\n');
+	}
 	return (0);
 }
