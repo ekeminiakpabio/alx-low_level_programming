@@ -3,7 +3,7 @@
  * print_alphabet - prints salphabets in lc
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char lc;
 
