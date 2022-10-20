@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_last_digit - entry
- * @r: inter
+ * @n: inter
  * Return: value
  */
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
-	int rf = r % 10;
+	int rf = n % 10;
 
 	if (rf < 0)
 		rf *= -1;
