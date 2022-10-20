@@ -7,7 +7,5 @@
  */
 int add(int no1, int no2)
 {
-	int sum = add(int no1 + int no2);
-
-	return (sum);
+	return (no1 + no2);
 }
